@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@350&display=swap");
+
+.cover-text-container {
+  position: sticky;
+}
+
+.cover-text {
+  background-image: url(https://images.unsplash.com/photo-1624362772755-4d5843e67047?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  margin: 0;
+  text-align: center;
+  padding: 80px;
+  color: #fcfcfc;
+  letter-spacing: 3px;
+  font-size: 28px;
+  font-family: Oswald, sans-serif;
+  filter: brightness(90%);
+  font-weight: 600;
+}
+
+.discount-text {
+  font-family: Roboto, sans-serif;
+  color: #fcfcfc;
+  font-size: 60px;
+  letter-spacing: 6px;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  font-weight: 700;
+}
+
+.discount-text span {
+  display: block;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.discount-text button {
+  width: 270px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #007bff;
+  color: #fcfcfc;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 830px) {
+  .discount-text {
+    font-size: 37px;
+  }
+
+  .discount-text span {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .cover-text {
+    font-size: 21px;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .cover-text {
+    margin-top: 70px;
+    font-size: 17px;
+    padding: 60px;
+  }
+
+  .discount-text {
+    font-size: 25px;
+  }
+
+  .discount-text span {
+    font-size: 16px;
+    padding-bottom: 8px;
+  }
+}
